@@ -1,0 +1,312 @@
+<!--
+Theme name:  SagaNX
+Theme by:    Jetup13
+Inspiration: EpicNoir+Switch Themese
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+
+    <!--Systemview-->
+    <view name="system">
+    <image name="foreground" extra="true">
+        <path>./_art/foregrounds/esheaderscreenforeground.png</path>
+        <tile>false</tile>
+        <size>1 1</size>
+        <pos>0 0</pos>
+        <origin>0 0</origin>
+		<zIndex>2</zIndex>
+    </image>
+	
+    <image name="foreground2" extra="true">
+        <path>./_art/foregrounds/estrim480h.png</path>
+        <tile>false</tile>
+        <size>1 1</size>
+        <pos>0 0</pos>
+        <origin>0 0</origin>
+		<zIndex>1</zIndex>
+    </image>
+      
+    <image name="artwork" extra="true">
+        <path>./_art/art/${system.theme}.jpg</path>
+        <tile>false</tile>
+        <origin>1 0</origin>
+        <pos>1 0</pos>
+        <size>0 1</size>
+		<zIndex>0</zIndex>
+    </image>
+
+    <carousel name="systemcarousel">
+        <color>00000000</color>
+        <origin>1 1</origin>
+        <pos>1 1</pos>
+        <size>0.01 0.01</size>
+        <logoScale>1</logoScale>
+        <logoSize>0.01 0.01</logoSize>
+        <maxLogoCount>0</maxLogoCount>
+    </carousel>
+
+    <text name="systemInfo">
+        <fontPath>./_art/Acre.otf</fontPath>
+        <alignment>left</alignment>
+        <backgroundColor>00000000</backgroundColor>
+        <forceUppercase>1</forceUppercase>
+        <origin>0 0</origin>
+        <pos>0.003 0.0</pos>
+        <size>0.400 0.039</size>
+        <fontSize>0.04</fontSize>
+		<zIndex>5</zIndex>
+    </text>
+	
+    <text name="shortdescription" extra="true">
+        <fontPath>./_art/Acre.otf</fontPath>
+        <alignment>left</alignment>
+		<forceUppercase>1</forceUppercase>
+        <alignment>left</alignment>
+        <fontSize>0.04</fontSize>
+        <origin>0 0</origin>
+        <pos>0.003 .95</pos>
+        <size>0.9 0.039</size>
+    </text>
+    
+    <text name="longdescription" extra="true">
+        <fontPath>./_art/Acre.otf</fontPath>
+        <alignment>left</alignment>
+        <forceUppercase>0</forceUppercase>
+        <fontSize>0.032</fontSize>
+        <color>ffffff99</color>
+ 	    <lineSpacing>1.25</lineSpacing>
+        <origin>0 0</origin>
+        <pos>0.003 0.03</pos>
+        <size>0.43 0.5</size>
+    </text>
+
+    <helpsystem name="help">
+	    <visible>false</visible>
+		<pos>0 0</pos>
+		<fontSize>0.01</fontSize>
+		<zIndex>0</zIndex>
+		<origin>1 1</origin>
+    </helpsystem>
+    </view>
+	
+    <!--Basic, Detailed, Video views-->
+    <view name="basic, detailed, video">
+
+    <image name="artwork" extra="true">
+        <path>./_art/art/${system.theme}.jpg</path>
+        <tile>false</tile>
+        <origin>1 0</origin>
+        <pos>1 0</pos>
+        <size>0 1</size>
+		<zIndex>0</zIndex>
+    </image>
+
+	<image name="foregroundscreen" extra="true">
+        <path>./_art/foregrounds/screen.png</path>
+        <tile>false</tile>
+        <size>1 1</size>
+        <pos>0 0</pos>
+        <origin>0 0</origin>
+		<zIndex>2</zIndex>
+    </image>
+
+    <image name="backgrounds" extra="true">
+        <tile>false</tile>
+        <path>./_art/backgrounds/detailedesheader.png</path>
+        <size>1 1</size>
+        <pos>0 0</pos>
+		<zIndex>3</zIndex>
+    </image>
+	
+    <image name="backgrounds2" extra="true">
+        <tile>false</tile>
+        <path>./_art/backgrounds/detailedesheadertrim.png</path>
+        <size>1 1</size>
+        <pos>0 0</pos>
+		<zIndex>1</zIndex>
+    </image>
+
+    <textlist name="gamelist">
+	    <selectorColor>fffffff00</selectorColor>
+        <primaryColor>ffffff</primaryColor>
+        <secondaryColor>888888</secondaryColor>
+        <fontPath>./_art/Acre.otf</fontPath>
+        <alignment>left</alignment>
+        <pos>0 0.025</pos>
+	    <size>0.35 .98</size>
+        <fontSize>0.034</fontSize>
+        <lineSpacing>1.5</lineSpacing>
+    </textlist>
+	
+	<helpsystem name="help">
+        <pos>0 0</pos>
+	    <origin>1 1</origin>
+        <textColor>ffffff</textColor>
+        <iconColor>ffffff</iconColor>
+    </helpsystem>
+
+    <text name="md_description">
+        <fontPath>./_art/Acre.otf</fontPath>
+	    <color>ffffff</color>
+        <fontSize>0.034</fontSize>
+	    <alignment>left</alignment>
+        <forceUppercase>0</forceUppercase>
+        <lineSpacing>1</lineSpacing>
+	    <pos>0.38 0.787</pos>
+	    <size>0.6 .22</size>
+    </text>
+    </view>
+
+
+    <view name="basic, detailed">
+    <image name="md_image">
+        <tile>false</tile>
+        <origin>0.5 0.5</origin>
+        <pos>0.66 0.42</pos>
+        <maxSize>0.55 0.65</maxSize>
+    </image>
+    </view>
+
+    <!-- Gridview -->
+    <view name="grid">
+	
+    <imagegrid name="gamegrid">
+		<margin>0.050 0.010</margin>
+        <pos>0.025 0.5</pos>
+        <size>0.970 0.5</size>
+	    <scrollDirection>horizontal</scrollDirection>
+		<autoLayout>3 1</autoLayout>
+		<autoLayoutSelectedZoom>1.0</autoLayoutSelectedZoom>
+		<centerSelection>true</centerSelection>
+		<scrollLoop>true</scrollLoop>
+    </imagegrid>
+	
+    <text name="gridtile">
+        <color>00000000</color>
+        <backgroundColor>00000000</backgroundColor>
+        <fontPath>./_art/AdobeBlank.ttf</fontPath>
+        <fontSize>0.01</fontSize>
+	    <alignment>center</alignment>
+	    <visible>false</visible>
+    </text>
+	
+    <ninepatch name="gridtile.background:selected">
+      <animateColor>FFFFFF</animateColor>
+      <animateColorTime>800</animateColorTime>
+    </ninepatch>
+
+    <image name="art" extra="true">
+        <path>./_art/art/${system.theme}.jpg</path>
+        <tile>false</tile>
+        <origin>1 0</origin>
+        <pos>1 0</pos>
+        <size>0 1</size>
+		<zIndex>0</zIndex>
+    </image>
+	
+	<image name="foregroundscreen" extra="true">
+        <path>./_art/foregrounds/screen.png</path>
+        <tile>false</tile>
+        <size>1 1</size>
+        <pos>0 0</pos>
+        <origin>0 0</origin>
+		<zIndex>2</zIndex>
+    </image>
+	
+    <image name="foregroundgrid" extra="true">
+        <path>./_art/foregrounds/esheaderscreenforeground.png</path>
+        <tile>false</tile>
+        <size>1 1</size>
+        <pos>0 0</pos>
+        <origin>0 0</origin>
+		<zIndex>3</zIndex>
+    </image>
+	
+    <image name="foregroundgrid2" extra="true">
+        <path>./_art/foregrounds/estrim480h.png</path>
+        <tile>false</tile>
+        <size>1 1</size>
+        <pos>0 0</pos>
+        <origin>0 0</origin>
+		<zIndex>1</zIndex>
+    </image>
+	
+    <helpsystem name="help">
+        <fontPath>./_art/Acre.otf</fontPath>
+        <fontSize>0.02</fontSize>
+        <origin>1 1</origin>
+        <pos>0 0</pos>
+        <textColor>ffffff</textColor>
+        <iconColor>ffffff</iconColor>
+    </helpsystem>
+		
+	<text name="md_name">
+        <pos>0.003 -0.03</pos>
+	    <fontPath>./_art/Acre.otf</fontPath>
+        <fontSize>0.04</fontSize>
+        <size>1 0.10</size>
+		<forceUppercase>1</forceUppercase>
+        <alignment>left</alignment>
+    </text>
+	
+    <video name="md_video">
+        <origin>0.5 0.5</origin>
+        <pos>0.74 0.3</pos>
+        <maxSize>0.4 0.5</maxSize>
+		<delay>1</delay>
+        <zIndex>50</zIndex>
+	</video>
+		
+	<image name="logo">
+	    <color>00000000</color>
+	    <path>./assets/box.png</path>
+		<pos>1 1</pos>
+	</image>
+
+    <gridtile name="default">
+        <backgroundColor>FFFFFF00</backgroundColor>
+        <backgroundCornerSize>9 9</backgroundCornerSize>
+        <selectionMode>image</selectionMode>
+        <padding>5 5</padding>
+    </gridtile>
+	
+    <text name="md_description">
+		<fontPath>./_art/Acre.otf</fontPath>
+	    <color>FFFFFF99</color>
+        <fontSize>0.03</fontSize>
+	    <alignment>left</alignment>
+        <forceUppercase>0</forceUppercase>
+        <lineSpacing>1</lineSpacing>
+	    <pos>0.003 0.08</pos>
+	    <size>0.464 0.42</size>
+    </text>
+    </view>
+
+    <feature supported="video">
+    <view name="video">
+        <video name="md_video">
+            <origin>0.5 0.5</origin>
+            <pos>0.66 0.42</pos>
+            <maxSize>0.5 0.6</maxSize>
+            <delay>1.5</delay>
+            <showSnapshotNoVideo>true</showSnapshotNoVideo>
+            <showSnapshotDelay>true</showSnapshotDelay>
+        </video>
+    </view>
+    </feature>
+
+    <view name="screen">
+   
+    <text name="clock">
+	  <fontPath>./_art/Acre.otf</fontPath>
+      <fontSize>0.035</fontSize>
+      <pos>0.88 -0.01</pos>
+      <size>0.2 0.058</size>
+      <alignment>left</alignment>
+      <verticalAlignment>center</verticalAlignment>
+	  <visible>false</visible>
+    </text>
+    </view>
+	
+</theme>
