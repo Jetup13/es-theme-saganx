@@ -1,0 +1,66 @@
+<!--
+Theme name:  SagaNX
+Theme by:    Jetup13
+Inspiration: EpicNoir+Switch Themese
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+
+    <include>./_art/extra/hidden.xml</include>
+  	<variables>
+	    <fullscreenfixSubsetname>Emulationstation Screen Size</fullscreenfixSubsetname>
+		<trimcolorSubsetname>Trim Color</trimcolorSubsetname>
+	    <SystemviewSubsetName>System Scroll</SystemviewSubsetName>
+		<shortdescriptionSubsetName>Show Short Description</shortdescriptionSubsetName>
+	</variables>
+	
+	<subset name="fullscreenfix" displayName="${fullscreenfixSubsetname}">
+        <include name="ES Fullscreen" displayName="${ES Fullscreen}">./fullscreen.xml</include>
+		<include name="ES Fullscreen V" displayName="${ES Fullscreen V}">./fullscreenv.xml</include>
+    </subset>
+	
+	<subset name="trimcolor" displayName="${trimcolorSubsetname}">
+        <include name="Blue" displayName="${Blue}">./_art/color/blue.xml</include>
+        <include name="Mint" displayName="${Mint}">./_art/color/mint.xml</include>
+		<include name="Purple" displayName="${Purple}">./_art/color/purple.xml</include>
+		<include name="Red" displayName="${Red}">./_art/color/red.xml</include>
+		<include name="Yellow" displayName="${Yellow}">./_art/color/yellow.xml</include>
+    </subset>
+	
+	<subset name="Systemview" displayName="${SystemviewSubsetName}">
+        <include name="Horizontal" displayName="${Horizontal}">./_art/systemview/horizontal.xml</include>
+		<include name="Vertical" displayName="${Vertical}">./_art/systemview/vertical.xml</include>
+    </subset>
+	
+	<subset name="shortdescription" displayName="${shortdescriptionSubsetName}">
+        <include name="on" displayName="${on}"/>
+        <include name="off" displayName="${off}">./_art/extra/shortdescription.xml</include>
+    </subset>
+	
+  <view name="menu">
+  
+    <menuBackground name="menubg">
+	 <color>202020</color>
+    </menuBackground>
+	
+	<menuText name="menutext, menutitle">
+	  <fontPath>./_art/Acre.otf</fontPath>
+	  <fontSize>.038</fontSize>
+	  <color>ffffff</color>
+	</menuText>
+	
+	<menuText name="menufooter, menutextsmall">
+      <fontPath>./_art/Acre.otf</fontPath>
+      <fontSize>.029</fontSize>		 
+      <color>ffffff</color>
+    </menuText>
+	
+	<menuTextEdit name="menutextedit">
+      <inactive>./_art/assets/textinput_inactive.png</inactive>
+      <active>./_art/assets/textinput_active.png</active>
+    </menuTextEdit>
+	
+  </view>
+	
+</theme>

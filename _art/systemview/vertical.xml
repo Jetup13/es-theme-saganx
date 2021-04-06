@@ -1,0 +1,12 @@
+<theme>
+<formatVersion>7</formatVersion>
+
+<view name="system">
+
+    <carousel name="systemcarousel">
+        <type>vertical</type>
+    </carousel>
+    
+</view>
+	
+</theme>
