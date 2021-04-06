@@ -34,6 +34,9 @@
 	<text name="md_name">
 	    <color>${mainColor}</color>
     </text>
+	<image name="foregroundgrid2" extra="true">
+        <color>${mainColor}</color>
+    </image>
 	</view>
 	
     <view name="screen">
