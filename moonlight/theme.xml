@@ -3,21 +3,20 @@
 <include>./../theme.xml</include>
 
 <view name="basic, detailed, video, grid">
-    <text name="nameLabel" extra="true">
-    <text>Neo Geo</text>
+  <text name="nameLabel" extra="true">
+    <text>Moonlight</text>
   </text>
 </view>    
 
 <view name="system">
   <text name="sys_line2" extra="true">
-    <text>Neo Geo</text>
-
-  </text> 
+    <text>Moonlight</text>
+   </text>
   <text name="shortdescription" extra="true">
-   <text>1990  ·  Home Console</text>
+   <text>2018  ·  Streaming Client</text>
   </text>
   <text name="longdescription" extra="true">
-   <text>Originally launched as the MVS coin-operated arcade machine. It was ranked 19th out of 25 best video game consoles of all time</text>
+   <text>Moonlight is an unofficial third-party open-source client for the NVIDIA SHIELD streaming software that comes included with GeForce Experience</text>
   </text>
  </view>
 </theme>

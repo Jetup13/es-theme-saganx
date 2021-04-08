@@ -4,22 +4,22 @@
 
 <view name="basic, detailed, video, grid">
     <text name="nameLabel" extra="true">
-    <text>X68000</text>
+    <text>CreatiVision</text>
   </text>
 </view>    
 
 <view name="system">
   <text name="sys_line1" extra="true">
-    <text>Sharp</text>
-  </text> 
+    <text>VTech</text>
+  </text>   
   <text name="sys_line2" extra="true">
-    <text>X68000</text>
-  </text> 
+    <text>CreatiVision</text>
+  </text>    
   <text name="shortdescription" extra="true">
-   <text>1987  ·  Home Computer</text>
+   <text>1982  ·  Home Computer</text>
   </text>
   <text name="longdescription" extra="true">
-   <text>The X68000 is a home computer, sold only in Japan. In terms of hardware, the X68K was very similar to arcade machines of the time</text>
+   <text>The Video Technology CreatiVision is a hybrid computer and home video game console introduced by VTech in 1981 and released in 1982</text>
   </text>
  </view>
 </theme>

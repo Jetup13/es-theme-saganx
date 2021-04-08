@@ -4,22 +4,19 @@
 
 <view name="basic, detailed, video, grid">
     <text name="nameLabel" extra="true">
-    <text>X68000</text>
+    <text>Mega Duck</text>
   </text>
 </view>    
 
 <view name="system">
-  <text name="sys_line1" extra="true">
-    <text>Sharp</text>
-  </text> 
   <text name="sys_line2" extra="true">
-    <text>X68000</text>
-  </text> 
+    <text>Mega Duck</text>
+  </text>    
   <text name="shortdescription" extra="true">
-   <text>1987  ·  Home Computer</text>
+   <text>1993  ·  Handheld Console</text>
   </text>
   <text name="longdescription" extra="true">
-   <text>The X68000 is a home computer, sold only in Japan. In terms of hardware, the X68K was very similar to arcade machines of the time</text>
+   <text>The Mega Duck is a handheld game console that was developed and manufactured by Hong Kong-based Welback Holdings released in 1993</text>
   </text>
  </view>
 </theme>

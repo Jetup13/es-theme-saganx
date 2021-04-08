@@ -4,22 +4,20 @@
 
 <view name="basic, detailed, video, grid">
     <text name="nameLabel" extra="true">
-    <text>X68000</text>
+    <text>Pokemon Mini</text>
   </text>
 </view>    
 
 <view name="system">
-  <text name="sys_line1" extra="true">
-    <text>Sharp</text>
-  </text> 
   <text name="sys_line2" extra="true">
-    <text>X68000</text>
-  </text> 
+    <text>Pokemon Mini</text>
+
+  </text>    
   <text name="shortdescription" extra="true">
-   <text>1987  ·  Home Computer</text>
+   <text>2001  ·  Handheld Console</text>
   </text>
   <text name="longdescription" extra="true">
-   <text>The X68000 is a home computer, sold only in Japan. In terms of hardware, the X68K was very similar to arcade machines of the time</text>
+   <text>The Pokemon Mini is a handheld game console that was designed and manufactured by Nintendo and themed around the Pokemon media franchise</text>
   </text>
  </view>
 </theme>

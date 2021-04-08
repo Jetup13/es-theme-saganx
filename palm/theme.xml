@@ -3,21 +3,20 @@
 <include>./../theme.xml</include>
 
 <view name="basic, detailed, video, grid">
-    <text name="nameLabel" extra="true">
-    <text>Neo Geo</text>
+  <text name="nameLabel" extra="true">
+    <text>Palm OS</text>
   </text>
 </view>    
 
 <view name="system">
   <text name="sys_line2" extra="true">
-    <text>Neo Geo</text>
-
-  </text> 
+    <text>Palm OS</text>
+   </text>
   <text name="shortdescription" extra="true">
-   <text>1990  ·  Home Console</text>
+   <text>1996  ·  Handheld OS</text>
   </text>
   <text name="longdescription" extra="true">
-   <text>Originally launched as the MVS coin-operated arcade machine. It was ranked 19th out of 25 best video game consoles of all time</text>
+   <text>Palm OS is a discontinued mobile operating system initially developed by Palm, Inc., for personal digital assistants in 1996.</text>
   </text>
  </view>
 </theme>

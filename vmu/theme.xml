@@ -3,23 +3,23 @@
 <include>./../theme.xml</include>
 
 <view name="basic, detailed, video, grid">
-    <text name="nameLabel" extra="true">
-    <text>X68000</text>
+  <text name="nameLabel" extra="true">
+    <text>VMU</text>
   </text>
 </view>    
 
 <view name="system">
   <text name="sys_line1" extra="true">
-    <text>Sharp</text>
-  </text> 
+    <text>SEGA</text>
+   </text>
   <text name="sys_line2" extra="true">
-    <text>X68000</text>
-  </text> 
+    <text>VMU</text>
+   </text>
   <text name="shortdescription" extra="true">
-   <text>1987  ·  Home Computer</text>
+   <text>1998  ·  Handheld Console</text>
   </text>
   <text name="longdescription" extra="true">
-   <text>The X68000 is a home computer, sold only in Japan. In terms of hardware, the X68K was very similar to arcade machines of the time</text>
+   <text>The Visual Memory Unit, also referred to as the Visual Memory System in Japan and Europe, is the primary memory card produced by Sega for the Dreamcast home video game console</text>
   </text>
  </view>
 </theme>

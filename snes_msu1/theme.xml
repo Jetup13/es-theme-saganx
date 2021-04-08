@@ -3,21 +3,22 @@
 <include>./../theme.xml</include>
 
 <view name="basic, detailed, video, grid">
-    <text name="nameLabel" extra="true">
-    <text>Neo Geo</text>
+  <text name="nameLabel" extra="true">
+    <text>SNES MSU-1</text>
   </text>
 </view>    
 
 <view name="system">
-  <text name="sys_line2" extra="true">
-    <text>Neo Geo</text>
 
-  </text> 
+  <text name="sys_line2" extra="true">
+    <text>MSU-1</text>
+
+</text>
   <text name="shortdescription" extra="true">
-   <text>1990  ·  Home Console</text>
+   <text>Artificial Enhancement Coprocessor</text>
   </text>
   <text name="longdescription" extra="true">
-   <text>Originally launched as the MVS coin-operated arcade machine. It was ranked 19th out of 25 best video game consoles of all time</text>
+   <text>The MSU-1 chip is a Super Nintendo enhancement chip created by Higan emulator creator byuu. MSU stands for "Media Streaming Unit 1"</text>
   </text>
  </view>
 </theme>

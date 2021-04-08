@@ -4,22 +4,20 @@
 
 <view name="basic, detailed, video, grid">
     <text name="nameLabel" extra="true">
-    <text>X68000</text>
+    <text>MS-DOS</text>
   </text>
 </view>    
 
 <view name="system">
-  <text name="sys_line1" extra="true">
-    <text>Sharp</text>
-  </text> 
   <text name="sys_line2" extra="true">
-    <text>X68000</text>
-  </text> 
+    <text>MS-DOS</text>
+
+  </text>    
   <text name="shortdescription" extra="true">
-   <text>1987  ·  Home Computer</text>
+   <text>1981  ·  Desktop Computers</text>
   </text>
   <text name="longdescription" extra="true">
-   <text>The X68000 is a home computer, sold only in Japan. In terms of hardware, the X68K was very similar to arcade machines of the time</text>
+   <text>MS-DOS is an operating system for x86-based personal computers mostly developed by Microsoft</text>
   </text>
  </view>
 </theme>

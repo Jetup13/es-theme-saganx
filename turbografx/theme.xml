@@ -11,7 +11,6 @@
 <view name="system">
   <text name="sys_line2" extra="true">
     <text>TurboGrafx-16</text>
-
   </text>   
   <text name="shortdescription" extra="true">
    <text>1987  ·  Home Console</text>

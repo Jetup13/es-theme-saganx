@@ -3,21 +3,20 @@
 <include>./../theme.xml</include>
 
 <view name="basic, detailed, video, grid">
-    <text name="nameLabel" extra="true">
-    <text>Neo Geo</text>
+  <text name="nameLabel" extra="true">
+    <text>Lutro</text>
   </text>
 </view>    
 
 <view name="system">
   <text name="sys_line2" extra="true">
-    <text>Neo Geo</text>
-
-  </text> 
+    <text>Lutro</text>
+  </text>
   <text name="shortdescription" extra="true">
-   <text>1990  ·  Home Console</text>
+   <text>2016  ·  2D Game Engine</text>
   </text>
   <text name="longdescription" extra="true">
-   <text>Originally launched as the MVS coin-operated arcade machine. It was ranked 19th out of 25 best video game consoles of all time</text>
+   <text>Lutro is an in-development Love 2D reimplementation written in Lua and implemented as a libretro core</text>
   </text>
  </view>
 </theme>
