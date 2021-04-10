@@ -19,6 +19,7 @@ Inspiration: EpicNoir+Switch Themese
 	    <include name="ES Header" displayName="${ES Header}">./header.xml</include>
         <include name="ES Fullscreen" displayName="${ES Fullscreen}">./fullscreen.xml</include>
 		<include name="ES Fullscreen V" displayName="${ES Fullscreen V}">./fullscreenv.xml</include>
+		<include name="OGS" displayName="${OGS}">./OGS.xml</include>
     </subset>
 	
 	<subset name="trimcolor" displayName="${trimcolorSubsetname}">
