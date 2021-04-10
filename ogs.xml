@@ -282,17 +282,43 @@ Inspiration: EpicNoir+Switch Themese
 	    <size>0.464 0.42</size>
     </text>
     </view>
+	
+    <customView name="Switch Grid" inherits="grid">
+        <imagegrid name="gamegrid">
+		<margin>0.050 0.010</margin>
+        <pos>0.005 0.07</pos>
+        <size>0.990 0.88</size>
+	    <scrollDirection>horizontal</scrollDirection>
+		<autoLayout>3 1</autoLayout>
+		<autoLayoutSelectedZoom>1.00</autoLayoutSelectedZoom>
+		<centerSelection>true</centerSelection>
+		<scrollLoop>true</scrollLoop>
+    </imagegrid>
+	
+	 <text name="md_description">
+		<visible>false</visible>
+    </text>
+	
+    <video name="md_video">
+		<pos>0.5 0.5</pos>
+		<minSize>1 1</minSize>
+		<maxSize>1.4 1.4</maxSize>
+		<origin>0.5 0.5</origin>
+		<delay>1.5</delay>
+        <zIndex>50</zIndex>
+	</video>
+    </customView>
 
     <feature supported="video">
     <view name="video">
-        <video name="md_video">
+    <video name="md_video">
         <origin>0.5 0.5</origin>
         <pos>0.72 0.42</pos>
         <maxSize>0.55 0.65</maxSize>
         <delay>1.5</delay>
         <showSnapshotNoVideo>true</showSnapshotNoVideo>
         <showSnapshotDelay>true</showSnapshotDelay>
-        </video>
+    </video>
     </view>
     </feature>
 
