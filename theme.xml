@@ -18,7 +18,7 @@ Inspiration: EpicNoir+Switch Themese
 	<subset name="fullscreenfix" displayName="${fullscreenfixSubsetname}">
 	    <include name="ES Header" displayName="${ES Header}">./header.xml</include>
         <include name="ES Fullscreen" displayName="${ES Fullscreen}">./fullscreen.xml</include>
-		<include name="ES Fullscreen V" displayName="${ES Fullscreen V}">./fullscreenv.xml</include>
+		<include name="351V" displayName="${351V}">./fullscreenv.xml</include>
 		<include name="OGS" displayName="${OGS}">./OGS.xml</include>
     </subset>
 	
