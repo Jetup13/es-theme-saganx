@@ -308,6 +308,67 @@ Inspiration: EpicNoir+Switch Themese
         <zIndex>50</zIndex>
 	</video>
     </customView>
+	
+    <customView name="Showcase Grid" inherits="grid">
+	<imagegrid name="gamegrid">
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <margin>0.005 0.010</margin>
+      <padding>0.1 0.0 0.1 0.0</padding>
+      <autoLayout>3 1</autoLayout>
+      <autoLayoutSelectedZoom>1.1</autoLayoutSelectedZoom>
+      <animateSelection>false</animateSelection>
+      <scrollDirection>horizontal</scrollDirection>
+      <centerSelection>true</centerSelection>
+      <scrollLoop>true</scrollLoop>
+	  <zIndex>6</zIndex>
+    </imagegrid>
+	
+    <gridtile name="default">
+      <backgroundColor>FFFFFF00</backgroundColor>
+      <backgroundCornerSize>9 9</backgroundCornerSize>
+      <selectionMode>image</selectionMode>
+      <padding>5 5</padding>
+      <imageColor>FFFFFF90</imageColor>
+      <reflexion>0.24 0.0</reflexion>
+	  <zIndex>6</zIndex>
+    </gridtile>
+	
+    <gridtile name="selected">
+      <backgroundColor>FFFFFF00</backgroundColor>
+      <imageColor>FFFFFFFF</imageColor>
+	  <zIndex>6</zIndex>
+    </gridtile>
+	
+    <image name="foregroundgrid3" extra="true">
+        <path>./_art/backgrounds/ogsbackground.png</path>
+		<tile>false</tile>
+        <size>1 1</size>
+        <pos>0 0</pos>
+        <origin>0 0</origin>
+		<zIndex>3</zIndex>
+    </image>
+	
+	<text name="md_description">
+		<visible>false</visible>
+    </text>
+	
+	 <image name="art" extra="true">
+        <visible>false</visible>
+    </image>
+	
+    <image name="foregroundgrid" extra="true">
+        <visible>false</visible>
+    </image>
+	
+	<image name="foregroundgrid2" extra="true">
+        <visible>false</visible>
+    </image>
+	
+	<video name="md_video">
+        <visible>false</visible>
+    </video>
+	</customView>
 
     <feature supported="video">
     <view name="video">
