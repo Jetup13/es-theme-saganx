@@ -1,5 +1,8 @@
 # ES-Theme-SagaNX
 Emulationstation theme for handheld devices (OGA, RG10, RK2020, RG351p/m, RG351v, ect)
+
+Big Screen version can be found [here](https://drive.google.com/file/d/1XlESYj1xHKpn5tclQADZboqBq8NIJRoV/view?usp=sharing)
+
 ![https://i.imgur.com/56LCNMU.png](https://i.imgur.com/56LCNMU.png)![https://i.imgur.com/V9eByMg.png](https://i.imgur.com/V9eByMg.png)
 - Uses high quality logos from the Switch theme
 - Uses system descriptions from EpicNoir theme
