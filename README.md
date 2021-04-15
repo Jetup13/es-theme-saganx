@@ -9,17 +9,4 @@ Big Screen version can be found [here](https://drive.google.com/file/d/1XlESYj1x
 - Currently supports OS's with screensizes at 480x320 (ES Fullscreen + ES Header), 640x480 (ES Fullscreen V), and 854x480 (OGS)
 
 # Previews
-- System View
-![https://i.imgur.com/LLzXIQO.png](https://i.imgur.com/LLzXIQO.png)
-
-- Detailed/Video View
-![https://i.imgur.com/uBA6Pr9.png](https://i.imgur.com/uBA6Pr9.png)
-
-- Grid View
-![https://i.imgur.com/ZyOPx4d.png](https://i.imgur.com/ZyOPx4d.png)
-
-- Switch Grid
-![https://i.imgur.com/JSu3cCB.png](https://i.imgur.com/JSu3cCB.png)
-
-- Showcase Grid
-![https://i.imgur.com/9A2NSVL.png](https://i.imgur.com/9A2NSVL.png)
+![https://i.imgur.com/LLzXIQO.png](https://i.imgur.com/LLzXIQO.png)![https://i.imgur.com/uBA6Pr9.png](https://i.imgur.com/uBA6Pr9.png)![https://i.imgur.com/ZyOPx4d.png](https://i.imgur.com/ZyOPx4d.png)![https://i.imgur.com/JSu3cCB.png](https://i.imgur.com/JSu3cCB.png)![https://i.imgur.com/9A2NSVL.png](https://i.imgur.com/9A2NSVL.png)
