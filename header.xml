@@ -256,6 +256,7 @@ Inspiration: EpicNoir+Switch Themese
         <maxSize>0.4 0.5</maxSize>
 		<delay>1</delay>
         <zIndex>50</zIndex>
+		<effect>none</effect>
 	</video>
 		
 	<image name="logo">
@@ -306,6 +307,7 @@ Inspiration: EpicNoir+Switch Themese
 		<origin>0.5 0.5</origin>
 		<delay>1.5</delay>
         <zIndex>50</zIndex>
+		<effect>none</effect>
 	</video>
     </customView>
 	
@@ -379,6 +381,7 @@ Inspiration: EpicNoir+Switch Themese
         <delay>1.5</delay>
         <showSnapshotNoVideo>true</showSnapshotNoVideo>
         <showSnapshotDelay>true</showSnapshotDelay>
+		<effect>none</effect>
     </video>
     </view>
     </feature>
